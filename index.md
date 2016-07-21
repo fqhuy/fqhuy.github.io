@@ -26,8 +26,8 @@ title: Phan Quoc Huy
   </tr>
 {% for project in site.projects %}
   <tr> 
-      <td> <img src="{{ project.image }}" class="project-rep-image"> </td>
-      <td>  <p class="project-title"> {{ project.title }} </p>
+      <td> <img src="{{ project.image }}" class="project-rep-image"> </td>       
+      <td>  <p class="project-title"> <a href="{{ project.url }}"> {{ project.title }} </a> </p>
       		<p class="project-doi"> <b> URI: </b> {{ project.doi }} </p>
       		<p class="project-authors"> <b> Authors: </b> {{ project.authors }} </p>
       		<p class="project-abstract"> <b> Abstract: </b> {{ project.abstract }} </p>
