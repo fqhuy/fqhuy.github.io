@@ -1,0 +1,170 @@
+/* elements */
+body {
+  background-color: #edf1f3;
+  color: #222;
+}
+
+a:link {
+  color: #336699;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #660000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #336699;
+  text-decoration: underline;
+}
+
+dl dt {
+  font-size: 15px;
+}
+
+dd {
+  margin: 0 0 2em 0;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 .post {
+  font-size: 24px;
+}
+
+h3 .post {
+  font-size: 22px;
+}
+
+hgroup h1 {
+  font-size: 32px;
+}
+
+footer {
+  border-top: 1px solid #222;
+}
+
+
+nav {
+  padding-top: 1em;
+}
+
+
+/* classes */
+
+.header {
+  padding-top: 1em;
+  font-size: 25pt;
+}
+
+.intro {
+  color: #666;
+  font-size: 20pt;
+  margin-bottom: 24pt;
+}
+
+.post {
+  font-family: 'Times New Roman', 'Georgia', serif;
+  font-size: 13pt;
+  padding-bottom: 1em;
+}
+
+.post p {
+  margin-bottom: 1.2em;
+}
+
+.post .signoff {
+  font-size: 12pt;
+  font-style: italic;
+  text-align: right;
+}
+
+.post .title {
+  font-size: 32pt;
+}
+
+.units-container h1 {
+  padding-bottom: .2em;
+}
+
+/* responsive */
+@media only screen and (max-width: 767px) {
+  .units-container {
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .units-container {
+    padding: 0 15%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .units-container {
+    padding: 0 30%;
+  }
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.main {
+    text-align: left;
+    background: cornflowerblue;
+}
+
+.footer {background: lightgreen;}
+
+@media all and (min-width: 600px) {
+    .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside1 { order: 1; }
+    .main    { order: 2; }
+    .aside2 { order: 3; }
+    .footer  { order: 4; }
+}
+
+img.project-rep-image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+}
+
+table.project-list {
+     border: none;
+}
+
+p.project-title {
+    font-weight: bold;
+}
+
+p.project-authors {
+    font-weight: normal;
+}
+
+p.project-abstract {
+    font-style: italic;
+}
+
+p.project-url {
+    font-style: italic;
+}
