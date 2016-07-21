@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My PhD journey came to a happy ending!
+title: My PhD journey has come to a happy ending!
 ---
 
 # {{ page.title }}
