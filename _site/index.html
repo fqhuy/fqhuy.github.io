@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.main {
+    text-align: left;
+    background: cornflowerblue;
+}
+
+.header {background: coral;}
+.footer {background: lightgreen;}
+.aside1 {background: moccasin;}
+.aside2 {background: violet;}
+
+@media all and (min-width: 600px) {
+    .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside1 { order: 1; }
+    .main    { order: 2; }
+    .aside2 { order: 3; }
+    .footer  { order: 4; }
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  
+  <h2 class="intro">Recent News</h2>
+
+<ul>
+
+  <li>
+    May 20, 2016 &mdash; <a href="/2016/05/20/moved-to-bath.html">Moved to Bath!</a>
+  </li>
+
+</ul>
+
+
+  <h2>Project Patternista</h2>
+  <p>Authors: H. Q. Phan, J. Lu, P. Asente, A. B. Chan and H. Fu</p>
+
+  <aside class="aside aside1">Aside 1</aside>
+  <aside class="aside aside2">Aside 2</aside>
+  
+<footer class="group">
+  <nav class="navbar navbar-left">
+    <ul>
+      <li><a href="/" title="Home">Home</a></li>
+      <li><a href="/about.html" title="About the author and site">About</a></li>
+      <li><a href="/archive.html" title="Archived writing">Archive</a></li>
+      <li><a href="/publications.html" title="Publications">Publications</a></li>
+      <li><a href="/events.html" title="Events">Events</a></li>
+    </ul>
+  </nav>
+  <nav class="navbar navbar-right">
+    <ul>
+      <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND</a></li>
+    </ul>
+  </nav>
+</footer>
+  <!-- <footer class="footer">Footer</footer> -->
+</div>
+
+</body>
+</html>
+
