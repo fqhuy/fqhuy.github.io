@@ -8,3 +8,5 @@ abstract: "Creating aesthetically pleasing decorations for daily objects is a ta
 ---
 
 # Patternista: Learning Element Style Compatibility and Spatial Composition for Ring-based Layout Decoration
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/V1nQcoY-a4U/0.jpg)](https://youtu.be/V1nQcoY-a4U)
