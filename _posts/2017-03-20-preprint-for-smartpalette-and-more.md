@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Link to my paper "Color Orchestra: Ordering Color Palettes for Interpolation and Prediction" is included.
+title: A little 2017 update.
 ---
 
 # {{ page.title }}
