@@ -12,4 +12,5 @@ paper, we consider color palettes extracted from fine art collections, which we 
 # Color Orchestra: Ordering Color Palettes for Interpolation and Prediction
 
 Video Link: https://youtu.be/77B7cEaf9Ug
+
 Paper link: https://arxiv.org/abs/1703.06003
