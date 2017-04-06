@@ -11,3 +11,5 @@ we intend to learn part consistency between glyphs of different characters acros
 ---
 
 # FlexyFont: Learning Transferring Rules for Flexible Typeface Synthesiscome
+
+A video of FlexyFont is now on [Youtube](https://youtu.be/ElJ-Xh_bEHA)
