@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project MiniMind, First Lines of Code.
+title: Project MiniMind First Lines of Code.
 ---
 
 # {{ page.title }}
